@@ -36,6 +36,7 @@
     "autoload": {
         "psr-4": { "Firoj\\Eshop\\Backend\\": "" }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
   
 }
