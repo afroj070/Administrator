@@ -1,6 +1,6 @@
 {
-    "name": "eshop/backend",
-    "description": "eshop backend part",
+    "name": "schoolManagement/administrator",
+    "description": "School Management Administrator section",
     "type": "project",
     "license": "MIT",   
     "require-dev": {
@@ -8,7 +8,7 @@
         "symfony/web-server-bundle": "^3.4"
     },
     "autoload": {
-        "psr-4": { "Firoj\\Eshop\\Backend\\": "" }
+        "psr-4": { "Firoj\\SchoolManagement\\Administrator\\": "" }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
