@@ -1,13 +1,13 @@
 <?php 
-namespace Firoj\Eshop\Backend\Controller;
-// use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+namespace Firoj\SchoolManagement\Administrator\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\Request;
 
 class TestController extends Controller 
 {
-    public function index()
+    public function index(Request $request)
     {
-        dump("fontend");die;
+       return $this->render('@Core/index.html.twig');
     }
 }
 
